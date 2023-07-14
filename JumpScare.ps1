@@ -31,7 +31,7 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/jumpscare.png"
+$image =  "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/raazteramera_cover.jpeg"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
