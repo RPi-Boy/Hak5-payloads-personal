@@ -40,7 +40,7 @@ iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-Ju
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/female_scream.wav?raw=true"
+$wav = "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/Raaz%20Tera%20Mera%20-%20Official%20Music%20Video(1).wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
