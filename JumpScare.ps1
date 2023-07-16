@@ -36,11 +36,11 @@ $image =  "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/raazteram
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-JumpScare/jumpscare.png?dl=1 -O $env:TMP\i.png
+iwr https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/raazteramera_cover.jpeg?dl=1 -O $env:TMP\i.jpeg
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/Raaz%20Tera%20Mera%20-%20Official%20Music%20Video(1).wav?raw=true"
+$wav = "https://github.com/RPi-Boy/Hak5-payloads-personal/blob/main/Raaz Tera Mera - Official Music Video(1).wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
@@ -170,7 +170,7 @@ $PlayWav=New-Object System.Media.SoundPlayer;$PlayWav.SoundLocation="$env:TMP\s.
 #----------------------------------------------------------------------------------------------------
 
 # This turns the volume up to max level
-$k=[Math]::Ceiling(60/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -lt $k;$i++){$o.SendKeys([char] 175)}
+#$k=[Math]::Ceiling(100/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -lt $k;$i++){$o.SendKeys([char] 175)}
 
 #----------------------------------------------------------------------------------------------------
 
